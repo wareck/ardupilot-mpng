@@ -10,6 +10,7 @@
   HK_RED_MULTIWII_PRO -- HobbyKing MultiWii Pro RED board with ITG3205 and BMA180, BMP085 sensors
   BLACK_VORTEX
   MULTIWII_PRO_EZ3_BLACK  -- ReadyToFlyQuads - MultiWii PRO Ez3.0 Blacked MAG Editon Flight Controller w/ GPS Option (NO COMPASS)
+  DROTEK_DROFLYPRO_V2  -- DroflyPro V2 and V3 - www.drotek.com (added by wareck)
  */
 
 // Currently not supported

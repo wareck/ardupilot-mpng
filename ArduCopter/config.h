@@ -252,6 +252,18 @@
  # define USB_MUX_PIN      -1
  # define BATTERY_VOLT_PIN -1
  # define BATTERY_CURR_PIN -1
+#elif MPNG_BOARD_TYPE == DROTEK_DROFLYPRO_V2 //add by wareck (for droflypro v3 will have other pinout config)
+ # define A_LED_PIN        13
+ # define B_LED_PIN        31
+ # define C_LED_PIN        30
+ # define LED_ON           LOW
+ # define LED_OFF          HIGH
+ # define PUSHBUTTON_PIN   (-1)
+ # define USB_MUX_PIN      (-1)
+ # define BATTERY_VOLT_PIN      1      // Battery voltage on A1
+ # define BATTERY_CURR_PIN      2      // Battery current on A2
+ #define PIEZO                                         ENABLED
+ #define PIEZO_PIN                                AN3
 #endif
 
 ////////////////////////////////////////////////////////////////////////////////

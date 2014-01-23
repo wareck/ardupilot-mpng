@@ -11,7 +11,11 @@ extern const AP_HAL::HAL& hal;
 #define MPU6000_ACCEL_SCALE_1G    (GRAVITY_MSS / 4096.0f)
 
 // MPU 6000 I2C Address
+#if MPNG_BOARD_TYPE == DROTEK_DROFLYPRO_V2 //add by wareck
+#define MPU6000_ADDR 0x69
+#else
 #define MPU6000_ADDR 0x68
+#endif
 
 // MPU 6000 registers
 #define MPUREG_XG_OFFS_TC                               0x00

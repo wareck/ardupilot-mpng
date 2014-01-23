@@ -420,6 +420,7 @@ enum ap_message {
 #define HK_RED_MULTIWII_PRO 3
 #define BLACK_VORTEX 4
 #define MULTIWII_PRO_EZ3_BLACK 5
+#define DROTEK_DROFLYPRO_V2 6 //add by wareck
 
 
 // Error message sub systems and error codes
